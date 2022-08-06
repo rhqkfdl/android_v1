@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ padding - 전체, paddingLeft
+ (내용물 안에서 여백을 설정하게 한다.)
+ margin - 뷰에 밖에서 여백을 설정하게 한다.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="10dp"
+        android:text="text"
+        android:background="@color/teal_200"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="text"
+        android:background="@color/teal_200"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_margin="100dp"
+        android:gravity="center"
+        android:text="text"
+        android:background="@color/teal_200"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+</LinearLayout>
